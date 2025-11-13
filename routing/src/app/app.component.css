@@ -1,0 +1,26 @@
+/* Make sure the page takes full height */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Footer styling */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Button styling (optional) */
+.footer button {
+  padding: 8px 16px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
